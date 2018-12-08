@@ -1,0 +1,36 @@
+{
+    "product" : [
+        {
+            "id" : 123 , 
+            "name" : "product name " , 
+            "image" : "product image" , 
+            "description" : "product description" , 
+            "category" : "product category" , 
+            "price" : 25.7 ,
+            "available" : true,
+            "package" : false ,
+            "bestSeller" : true
+        }
+    ],
+    "navBar" : [
+        {
+            "parent" : ["children1" , "children2" , "children3"] , //parent = navs and children = nav Items 
+        }
+    ],
+    "event" : [
+        {
+            "name" : "event name" ,
+            "image" : "event image cover" , 
+            "description" : "event description" , 
+            "date" : "event date" 
+        }
+    ] , 
+    "contact" : [
+        {
+            "fullName" : "user full name" , 
+            "email" : "user email" , 
+            "message" : "user message" 
+        }
+    ],
+    "carousel" : ["iamge1" , "iamge2" , "iamge3"]
+}
